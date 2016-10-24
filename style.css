@@ -1,0 +1,156 @@
+html, body {
+background: #181818; font-family: 'Roboto', Times, helvetica, arial, sans-serif; font-size: 16px; color: #222;
+}
+h1, h2, h3, .title{
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+a {
+    color: #222;
+    text-decoration: none;
+}
+a:hover {
+    color: #549E2E;
+}
+main {
+	background: #ededed;
+}
+header {	
+	border-bottom: 3px solid #549E2E;
+}
+h4 {
+	font-size: 1.2em;
+}
+ul {
+	list-style-type: circle;
+}
+body {
+	min-width: 495px;
+}
+.container {
+	max-width: 1080px;
+	border-radius: 13px;
+	border: 3px solid #549E2E;
+}
+.name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-bottom: -20px;
+	margin-left: 8px;
+}
+.name h2 {
+	font-size: 2em;
+	margin-left: 16px;
+}
+
+.item:nth-child(even) {
+    background-color: #dddddd;
+}
+.row .edu {
+    background-color: #eeeeee;
+}
+
+.info {
+    margin-right: 0px;
+}
+.item h2 {
+	font-size: 1.7em;
+	margin-bottom: 0px;
+	margin-top: 0;
+	padding-left: 4px;
+}
+.item h4 {
+	margin-bottom: 0px;
+	margin-top: 0;
+	margin-left: 10px;
+	font-style: italic;
+}
+hr {
+	border-color: #bbbbbb;
+	border-style: solid none;
+	border-width: 1px 0;
+	margin: 0 0 0.5em 0;
+	width: 80%;
+	margin-left: 11%;
+}
+.contact{
+	padding-top: 8%;
+	padding-left: 10%;
+	padding-right: 10px;
+    margin-right:-3px;
+    border-right: 3px solid #549E2E;
+}
+.contact ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+.address {
+	padding: 5px 0 5px 0;
+}
+.phone {
+	padding-bottom: 10px;
+}
+#headshot {
+ padding: 0;
+	border-left: 3px solid #549E2E;
+    overflow: hidden;
+    
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: -108%;
+    overflow: none;
+    border-radius: 10px;
+}
+
+img:hover {
+    margin-bottom: 0;
+    margin-top: -108%;
+    overflow: hidden;
+}
+.title {
+	font-style: italic;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #549E2E;
+}
+.title p {
+	padding-left: 1em;
+}
+.info {
+	padding-top: 1em;
+	padding-right: 12px;
+}
+.info p {
+	padding-left: 19px;
+}
+.skills ul {
+	padding-left: 15px;
+}
+.skills h4 {
+	margin-bottom: 4px;
+	font-weight: 500;
+	font-size: 1.4em;
+}
+.empDate {
+	float: right;
+	padding-right: 8px;
+}
+.softLang {
+	padding-left: 10px;
+}
+.softLang h4{
+	width: 110%;
+	padding-left: 7px;
+}
+#lang {
+	width: 200px;
+	margin-left: 10px;
+}
+.title{
+    color: #549E2E;
+	transition: color 1s ease;
+}
+.title:hover{
+	color: #cf8a05;
+}
